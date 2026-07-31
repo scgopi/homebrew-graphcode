@@ -12,6 +12,11 @@ and links the `graphcode` CLI onto your `PATH`. Launch the app once: it installs
 `graphcoded` and `zmx` into `~/.graphcode/bin` and loads the launchd agent that keeps the
 daemon running.
 
+Homebrew 6 warns that a third-party tap is untrusted — a gate on taps in general, not a
+finding about this one. `brew trust --tap scgopi/graphcode` settles it, and gets ahead of
+the release that stops making it optional. (`brew trust` is Homebrew 6+; older versions
+don't check at all.)
+
 Requires **macOS 15+ on Apple Silicon**, with **Claude Code on your `PATH`** — GraphCode
 launches it, it doesn't bundle it.
 
