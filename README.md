@@ -15,6 +15,9 @@ daemon running.
 Requires **macOS 15+ on Apple Silicon**, with **Claude Code on your `PATH`** — GraphCode
 launches it, it doesn't bundle it.
 
+Already installed GraphCode by hand from the DMG? Homebrew won't overwrite an app it
+didn't put there — add `--force` to adopt it, or drag the old copy to the Trash first.
+
 ## Upgrading
 
 ```sh
