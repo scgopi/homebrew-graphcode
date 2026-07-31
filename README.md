@@ -4,9 +4,11 @@ Homebrew tap for [GraphCode](https://github.com/scgopi/GraphCode) — graphs of 
 steerable Claude Code sessions on macOS.
 
 ```sh
-brew tap scgopi/graphcode
-brew install --cask graphcode
+brew install --cask scgopi/graphcode/graphcode
 ```
+
+The long name adds this tap by itself; `brew tap scgopi/graphcode` first is equivalent and
+makes later commands just `graphcode`.
 
 That downloads the signed, notarized release DMG, puts **GraphCode** in `/Applications`,
 and links the `graphcode` CLI onto your `PATH`. Launch the app once: it installs
