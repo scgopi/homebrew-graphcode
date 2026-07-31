@@ -4,7 +4,8 @@ Homebrew tap for [GraphCode](https://github.com/scgopi/GraphCode) — graphs of 
 steerable Claude Code sessions on macOS.
 
 ```sh
-brew install --cask scgopi/graphcode/graphcode
+brew tap scgopi/graphcode
+brew install --cask graphcode
 ```
 
 That downloads the signed, notarized release DMG, puts **GraphCode** in `/Applications`,
@@ -44,7 +45,8 @@ The official cask repository takes only projects past its
 [notability threshold](https://docs.brew.sh/Acceptable-Casks#rejected-casks)
 (75 stars, or 30 forks/watchers). GraphCode isn't there yet; this tap is the
 same cask, published directly. Nothing about the install differs apart from the
-tap name in the command.
+one-time `brew tap` — once the project clears the bar, `brew install --cask
+graphcode` will work with no tap at all.
 
 ## License
 
