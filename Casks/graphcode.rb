@@ -1,6 +1,6 @@
 cask "graphcode" do
-  version "0.1.22"
-  sha256 "e22aebda49e64468c4f0d03203a7c6473431928fd151702a3a68df9f73677349"
+  version "0.1.23"
+  sha256 "872a60e24a578350a4e4f9ac743f3d9cb6e3be61d3818a832dbf0c5b8d766a8b"
 
   url "https://github.com/scgopi/GraphCode/releases/download/v#{version}/graphcode-macos-arm64.dmg",
       verified: "github.com/scgopi/GraphCode/"
