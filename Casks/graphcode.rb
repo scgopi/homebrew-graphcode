@@ -13,6 +13,10 @@ cask "graphcode" do
     strategy :github_latest
   end
 
+  # The app checks GitHub on launch and installs the DMG itself, so the version brew
+  # recorded goes stale without brew ever running. Without this, `brew upgrade` fights
+  # the in-app updater over the same bundle.
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sequoia
 

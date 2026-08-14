@@ -32,6 +32,10 @@ cask "graphcode@beta" do
     end
   end
 
+  # The app checks GitHub on launch and installs the DMG itself, so the version brew
+  # recorded goes stale without brew ever running. Without this, `brew upgrade` fights
+  # the in-app updater over the same bundle.
+  auto_updates true
   # Both casks install graphcode.app and link the same `graphcode` binary, so they
   # cannot be installed side by side — the beta is a channel you switch to, not a
   # second copy you keep.
