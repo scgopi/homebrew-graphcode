@@ -2,8 +2,7 @@ cask "graphcode" do
   version "0.1.69"
   sha256 "8db0476f769d4b222735f0376cdd525243440409798491ec583d1bab4fb35460"
 
-  url "https://github.com/scgopi/GraphCode/releases/download/v#{version}/graphcode-macos-arm64.dmg",
-      verified: "github.com/scgopi/GraphCode/"
+  url "https://github.com/scgopi/GraphCode/releases/download/v#{version}/graphcode-macos-arm64.dmg"
   name "GraphCode"
   desc "Graphs of live, steerable coding-agent sessions"
   homepage "https://github.com/scgopi/GraphCode/"

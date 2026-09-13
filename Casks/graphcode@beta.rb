@@ -5,8 +5,7 @@ cask "graphcode@beta" do
   # No `v` in the path: betas are tagged bare (0.1.9-beta1) while releases carry
   # the prefix (v0.1.9), which is also why `make tap-bump CHANNEL=beta` keeps a
   # per-channel tag prefix instead of hardcoding one.
-  url "https://github.com/scgopi/GraphCode/releases/download/#{version}/graphcode-macos-arm64.dmg",
-      verified: "github.com/scgopi/GraphCode/"
+  url "https://github.com/scgopi/GraphCode/releases/download/#{version}/graphcode-macos-arm64.dmg"
   name "GraphCode (beta)"
   desc "Graphs of live, steerable coding-agent sessions — pre-release channel"
   homepage "https://github.com/scgopi/GraphCode/"
