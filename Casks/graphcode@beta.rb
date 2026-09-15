@@ -1,6 +1,6 @@
 cask "graphcode@beta" do
-  version "0.1.71-beta1"
-  sha256 "5f9f6e84213038a5fb9e7e794dac6668b3fa2dac5c2b74afca1f76c5d7730170"
+  version "0.1.71-beta2"
+  sha256 "90390582e288a3c39c27cacb2e050c643454cd1f6e4004bca758ccc712e97a79"
 
   # No `v` in the path: betas are tagged bare (0.1.9-beta1) while releases carry
   # the prefix (v0.1.9), which is also why `make tap-bump CHANNEL=beta` keeps a
